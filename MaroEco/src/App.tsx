@@ -6,6 +6,7 @@ interface AppProps {}
 
 export const App: React.FC<AppProps> = () => {
   const theme = useTheme();
+
   return (
     <Grid container width={theme.breakpoints.values.mobile}>
       Hello
